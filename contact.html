@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>contact us</title>
+        <link rel="stylesheet" href="contact.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    </head>
+    <body>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="homepage.html">home</a></li>
+                <li><a href="About.html">about</a></li>
+                <li><a href="login.html">log in</a></li>
+                <li><a href="add to cart.html">products</a></li>
+                <li><a href="contact.html">contact me</a></li>
+            </ul>
+        </nav>
+
+        <!--alert messages start-->
+        <div class="alert-success">
+            <span>Message sent! Thank you for contacting us.</span>
+        </div>
+        <div class="alert-error">
+            <span>something went wrong! please try aain.</span>
+        </div>
+        <!--alert messages end-->
+
+        
+
+        <!--contact section start-->
+        <div class="contact-section">
+            <div class="contact-info">
+                <div><i class="fa fa-map-marker" aria-hidden="true"></i>Address, city, country</div>
+                <div><i class="fa fa-envelope" aria-hidden="true"></i>contact@email.com</div>
+                <div><i class="fa fa-phone" aria-hidden="true"></i>+254712365214</div>
+                <div><i class="fa fa-clock-o" aria-hidden="true"></i>Mon - fri 8:00 AM TO 6:00 PM</div>
+            </div>
+            <div class="contact-form">
+                <h2>contact us</h2>
+                <form class="contact" action="" method="post">
+                    <input type="text" name="name" class="text-box" placeholder="your name" required>
+                    <input type="email" name="email" class="text-box" placeholder="your email" required>
+                    <textarea name="message" rows="5" placeholder="your message" required></textarea>
+                    <input type="submit" name="submit" class="send-btn" value="send">
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

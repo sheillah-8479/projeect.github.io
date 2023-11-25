@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="home.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    </head>
+    <body>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="homepage.html">home</a></li>
+                <li><a href="About.html">about</a></li>
+                <li><a href="login.html">log in</a></li>
+                <li><a href="add to cart.html">products</a></li>
+                <li><a href="contact.html">contact me</a></li>
+            </ul>
+        </nav>
+
+        <div class="header">
+            <p class="logo">LOGO</p>
+            <div class="cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i><P id="count">0</P>
+            </div>
+        </div>
+        <div class="container">
+            <div id="root"></div>
+                <div class="sidebar">
+                    <div class="head"><p>My cart</p></div>
+                    <div id="cartitem">Your cart is empty</div>
+                    <div class="foot">
+                        <h3>Total</h3>
+                        <h2 id="total">ksh 0.00</h2>
+                    </div>
+                </div>
+            </div>
+        <script src="add to cart.js"></script>
+    </body>
+</html>
